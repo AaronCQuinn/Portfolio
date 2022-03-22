@@ -3,7 +3,7 @@ import Card from '../Card'
 
 const CardContainer = () => {
     return (
-        <div className='grid md:grid-cols-3 ml-24 my-16 grid-cols-1 sm:gap-5 md:gap-0'>
+        <div className='flex flex-col items-center justify-around md:flex-row my-16 xs:gap-5 md:gap-3'>
             <Card 
               title={'The Grand Exchange'} 
               tech={["React", "Tailwind", "Framer Motion", "Axios"]} 

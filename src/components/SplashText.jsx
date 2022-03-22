@@ -6,7 +6,7 @@ const SplashText = () => {
             <div className='md:text-3xl lg:text-5xl leading-tight font-bold font-poppins'>
                 Hello, my name is
             </div>
-            <div className='sm:text-5xl lg:text-8xl leading-tight font-extrabold font-poppins'>
+            <div className='xs:text-5xl lg:text-8xl leading-tight font-extrabold font-poppins'>
             Aaron Quinn.
             </div>
             <div className='md:text-base lg:text-xl my-2'>

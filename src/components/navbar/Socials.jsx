@@ -3,7 +3,7 @@ import { FaGithubSquare, FaLinkedin, FaEnvelopeSquare } from 'react-icons/fa'
 
 const Socials = () => {
     return (
-        <div className='sm:hidden md:block w-100 pb-3'>
+        <div className='xs:hidden md:block w-100 pb-3'>
             <a href='https://www.linkedin.com/in/aaron-quinn/' target="_blank" rel="noreferrer">
                 <FaLinkedin size={40} className='inline hover:fill-blue-600'/>
             </a>

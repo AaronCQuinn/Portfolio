@@ -16,11 +16,11 @@ const Navbar = () => {
                 animate={inView ? { opacity: 1 } : {opacity: 0}}
                 transition={{ duration: 1 }}
                 className='
-                font-poppins 
-                sm:w-full
-                sm:flex-row
-                sm:h-fit
-                sm:border-r-0
+                font-poppins
+                xs:w-full
+                xs:flex-row
+                xs:h-fit
+                xs:border-r-0
                 md:h-screen 
                 md:w-40 
                 md:flex-col 

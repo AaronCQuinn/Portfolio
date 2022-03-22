@@ -16,7 +16,7 @@ const HomeContainer = () => {
                         initial={{ opacity: 0 }}
                         animate={inView ? { opacity: 1, translateY: -25 } : {opacity: 0}}
                         transition={{ duration: 1 }}
-                        className='min-h-screen w-full pt-28 grid gap-10 sm:grid-cols-1 lg:grid-cols-2 place-items-center'
+                        className='xs:px-10 min-h-screen w-full pt-28 grid gap-10 sm:grid-cols-1 lg:grid-cols-2 place-items-center'
                     >
                         {/* Home Text */}
                         <div>
