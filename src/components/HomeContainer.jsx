@@ -2,7 +2,6 @@ import React from 'react'
 import SplashText from './SplashText'
 import Picture from '../Picture.jpg'
 import Divider from './Divider'
-import StyledButton from './StyledButton'
 import { InView } from 'react-intersection-observer'
 import { motion } from 'framer-motion'
 
@@ -21,7 +20,6 @@ const HomeContainer = () => {
                         {/* Home Text */}
                         <div>
                             <SplashText />
-                            <StyledButton text={"Get In Contact With Me"} />
                         </div>
 
                         {/* Profile Picture */}
