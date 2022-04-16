@@ -2,6 +2,7 @@ import React from 'react'
 import {VscGithubAlt} from 'react-icons/vsc'
 import {GoLinkExternal} from 'react-icons/go'
 import {motion} from 'framer-motion'
+import './Card.css'
 
 const Card = ({title, tech, links, desc}) => {
     return (
@@ -9,7 +10,7 @@ const Card = ({title, tech, links, desc}) => {
             whileHover={{ scale: 1.1 }}
             transition={{duration: 0.5}}
         >
-        <div className='bg-neutral-900 w-fit p-5 max-w-sm text-white rounded-md outline outline-1 outline-blue-300'>
+        <div className='bg-neutral-900 card w-fit p-5 max-w-sm text-white rounded-md outline outline-1 outline-blue-300'>
             {/* Header Portion */}
             <div className='flex justify-between items-center mb-5 text-2xl px-2'>
                 <div>
